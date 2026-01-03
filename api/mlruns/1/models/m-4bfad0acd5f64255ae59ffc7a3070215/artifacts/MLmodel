@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/chsid/Desktop/face-det-mlops/api/mlruns/1/models/m-4bfad0acd5f64255ae59ffc7a3070215/artifacts
+flavors:
+  onnx:
+    code: null
+    data: model.onnx
+    onnx_session_options: null
+    onnx_version: 1.20.0
+    providers:
+    - CUDAExecutionProvider
+    - CPUExecutionProvider
+  python_function:
+    data: model.onnx
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.onnx
+    python_version: 3.10.7
+mlflow_version: 3.8.1
+model_id: m-4bfad0acd5f64255ae59ffc7a3070215
+model_size_bytes: 9097105
+model_uuid: m-4bfad0acd5f64255ae59ffc7a3070215
+prompts: null
+run_id: 9c518759d00d46e591d6f3fc9ab65b25
+utc_time_created: '2026-01-03 16:05:26.173710'

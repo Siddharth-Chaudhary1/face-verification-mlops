@@ -1,0 +1,15 @@
+# to run venv
+venv\Scripts\activate  
+
+# to start the docker
+docker run -p 8000:8000 face-match-api
+
+# for testing:
+cd tests
+python test_compare.py
+
+# mlflow db
+mlflow ui --backend-store-uri sqlite:///mlflow.db
+
+# To run frontend
+streamlit run frontend/app.py

@@ -1,0 +1,18 @@
+# Virtual env
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+
+# MLflow local DB
+mlflow.db
+
+# Model weights (DO NOT COMMIT)
+model/
